@@ -87,6 +87,257 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ----------------- Base Header - Footer Styles -----------------*/
+
+header,
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+
+/* Header Styles */
+
+header .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+header .header-divider {
+	
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;	
+}
+
+/* ----------------- Mobile Styles - Homepage -----------------*/
+
+
+/* Hero Area Homepage */
+
+.hero-area {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;	
+}
+
+.hero-area .content-wrapper {
+	
+}
+
+.hero-area h1 {
+	
+}
+
+/* Aside Homepage */
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;	
+}
+
+aside .content-wrapper {
+	
+}
+
+aside .form-description {
+	
+}
+
+aside h5 {
+	
+}
+
+aside p {
+	
+}
+
+aside label {
+	
+}
+
+aside text {
+	
+
+}
+
+aside button {
+	
+}
+
+/* Features Homepage */
+
+.features {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.features .content-wrapper {
+	
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features .item-description {
+	flex-flow: row wrap;
+}
+
+
+.features article {
+	
+}
+
+.features h2 {
+	
+}
+
+.features .fontawesome-icon {
+	
+}
+
+.features .features-item-description {
+	
+}
+
+
+/* Reviews Homepage  */
+
+
+.reviews {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.reviews .content-wrapper {
+	
+}
+
+.reviews .article {
+	
+}
+
+.reviews .testimonial {
+	
+}
+
+.reviews h3 {
+	
+}
+
+.reviews h4 {
+	
+}
+
+.reviews p {
+	
+}
+
+
+/* ===================================================================
+  Mobile Styles ABOUT PAGE
+======================================================================*/
+
+
+.mission {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	flex-flow: row wrap;
+}
+
+.mission .content-wrapper {
+	
+}
+
+.mission h1 {
+	
+}
+
+.map figure {
+	
+}
+
+.contact-section {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+	
+}
+
+.contact-wrapper {
+	
+}
+
+/*===========================================================
+  Mobile Styles FAQ PAGE
+============================================================*/
+
+.faq {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	flex-flow: row wrap;	
+}
+
+.faq .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+
+.question-answer {
+	
+}
+
+.question {
+	
+}
+
+.answer {
+	
+}
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
