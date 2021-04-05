@@ -571,7 +571,7 @@ input[type=button] {
 		width: 49%;
 	}
 	
-/*FOOTER*/
+/*FOOTER HOMEPAGE TABLET*/
 	
 	footer .content-wrapper {
       width: 65%;
@@ -592,7 +592,8 @@ input[type=button] {
       width: 100%;
     }
   
-/*========ABOUT PAGE TABLET===========*/
+/*===================================
+	ABOUT PAGE TABLET===============*/
 	
 	 .mission-content {
       display: flex;
@@ -616,7 +617,8 @@ input[type=button] {
 	}
 	
 	
-/*========FAQ PAGE TABLET ==========*/
+/*===================================
+	FAQ PAGE TABLET ====================*/
 	
 	.faq .content-wrapper {
 		justify-content: space-between;
@@ -631,14 +633,65 @@ input[type=button] {
 	}
 	
 	
-
-	
 }
 
 @media only screen and (min-width: 1200px) {
-	/*Desktop Styles */
-}
+/*=========    Desktop Styles  =====================*/
 
+	/*GENERAL STYLES*/
+	
+	.content-wrapper {
+		max-width: 960px;
+	}
+	
+	/*HERO AREA DESKTOP*/
+	
+	.hero-area h1 {
+		width: 60%;
+	}
+	
+	/*ASIDE AREA DESKTOP*/
+	
+	 aside .content-wrapper {
+    justify-content: space-around;
+  }
+	
+	aside .content-wrapper .form-description
+	aside .content-wrapper .form {
+		width: 30%;
+	}
+	
+	/*FEATURES DESKTOP*/
+	
+	.features h2 {
+		width: 90%; 
+	}
+	
+	.features article {
+		flex-basis: 33%;
+	}
+	
+	/* REVIEWS DESKTOP */
+	
+  .reviews article div {
+    width: 42%;
+  }
+
+/*========== ABOUT PAGE DESKTOP ===========*/	
+	
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+      width: 95%;
+  }
+	
+/*========== FAQ PAGE DESKTOP ===========*/	
+  
+   .faq h2 {
+    width: 100%;
+  }
+
+  
+	
 
 /* ==========================================================================
    Print styles.
