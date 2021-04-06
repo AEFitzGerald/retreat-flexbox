@@ -128,13 +128,13 @@ p {
 	line-height: 1.285;	
 }
 
-/*img {
-	
+img {
+	width: 100%;	
 }
 
 figure {
-	
-}*/
+	margin: 0;
+}
 
 address {
 	font-style: normal;	
@@ -171,10 +171,13 @@ header .content-wrapper {
 	margin: 0;
 }
 
-header #logo {
-	width: 220px;
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
-
 
 header .header-divider {
 	background: #3a3a3a; 
@@ -251,11 +254,10 @@ footer .copyright {
 /* Hero Area Homepage */
 
 .hero-area {
-	background-image: url("../imgs/jake-melara-30679-unsplash.jpg");
+	background-image: url("../imgs/hero.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 500px;
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;	
@@ -308,9 +310,13 @@ input[type=button] {
 /* Features Homepage */
 
 .features {
+	background-image: url("../imgs/features-background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
 	justify-content: center;
-	flex-flow: row wrap;	
+	flex-flow: row wrap;
 }
 
 .features h2 {
@@ -538,18 +544,19 @@ input[type=button] {
 	}
 	
 	header nav {
-		width: 20%;
+		width: 30%;
 	}
 	
 	header nav ul {
 		justify-content: space-between;
 	}
 	
-	header .divider {
+	header .header-divider {
 		display: none;
 	}
 	
-	/*HERO AREA*/
+	
+	/*HERO AREA TABLET*/
 	
 	.hero-area h1 {
 	font-size: 3em;
@@ -565,16 +572,14 @@ input[type=button] {
 		flex-flow: row wrap;
 		margin: 50px 0;
 	}
-
-	aside .content-wrapper .form-description
+    
+	
+	aside .content-wrapper .form-description,
 	aside .content-wrapper .form {
-		width: 40%;
+        width: 40%;
 		margin: 0;
 	}
 	
-	input[type=button] {
-		font-size: 1.5em;
-	}
 /*FEATURES HOMEPAGE TABLET*/
 	
 	 .features h2 {
@@ -594,25 +599,31 @@ input[type=button] {
 	}
 	
 /*REVIEWS HOMEPAGE TABLET*/
-	
-	.reviews article {
+	.reviews .content-wrapper {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+		flex-flow: row wrap;
 	}
 	
-  .reviews h3 {
+	.reviews h3 {
     width: 85%;
-  }
+    }
 
-  .reviews article div {
-    width: 49%;
-  }
-
-  .reviews h4 {
+   .reviews figure {
+		width: 49%;
+	}
+	
+   .reviews h4 {
     width: 75%;
     margin: 0;
-}
-	
+    }
+	 
+   .reviews article {
+	   width: 49%;
+  }
+
+
 /*FOOTER HOMEPAGE TABLET*/
 	
 	footer .content-wrapper {
@@ -705,17 +716,27 @@ input[type=button] {
       line-height: 1.333;
     }
 	
-	/*HEADER*/
+	/*HEADER DESKTOP*/
 	
 	header {
 		padding: 15px 0;
     }
+	
+	header figure {
+		width: 24%;
+	}
+	
+	header nav {
+		width: 20%;
+	}
+	
 
 	/*HERO AREA DESKTOP*/
 	
 	.hero-area h1 {
-		 width: 60%;
+		width: 90%;
 		font-size: 3.75em;
+		margin: 0;
 	}
 	
 	/*ASIDE AREA DESKTOP*/
@@ -733,6 +754,11 @@ input[type=button] {
     font-size: 1.125em;
   }
 	
+	input[type=button] {
+		font-size: 1.5em;
+	}
+	
+	
 	/*FEATURES DESKTOP*/
 	
 	.features h2 {
@@ -748,8 +774,12 @@ input[type=button] {
 	.reviews h2 {
 		padding-bottom: 50px;
 	}
+	
+	.reviews figure {
+		width: 48%;
+	}
   
-    .reviews article div {
+    .reviews article {
 		width: 42%;
   }
 	
