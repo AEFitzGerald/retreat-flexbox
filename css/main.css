@@ -200,6 +200,7 @@ header nav {
 header nav ul {
    display: flex;
    justify-content: space-around;
+   padding-left: 0;
    width: 100%;
 }
 
@@ -218,7 +219,7 @@ footer .content-wrapper {
 }
 
 footer .contact {
-	margin: 50px;
+	margin-bottom: 50px;
 }
 
 footer .social-icons {
