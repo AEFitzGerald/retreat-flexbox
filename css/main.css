@@ -269,14 +269,15 @@ footer .copyright {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;	
+	min-height: 500px;
 }
 
 .hero-area h1 {
-	color: #e2e3ed;
 	font-family: 'Poppins', Helvetica, Arial, sans-serif;
 	font-size: 2em;
 	font-weight: 500;
 	line-height: 1.2;
+	max-width: 90%;
 }
 
 /* Aside Homepage */
@@ -442,8 +443,10 @@ input[type=button] {
 	margin-bottom: 50px;
 }
 
-.faq-content h4 {
+.faq-content .question {
   line-height: 1.333;
+  font-weight: 500;
+  font-size: 1.2em;
 }
 
 /* ==========================================================================
@@ -586,8 +589,11 @@ input[type=button] {
 	
 	/*HERO AREA TABLET*/
 	
+	.hero-area {
+		min-height: 600px;
+	}
 	
-	.hero h1 {
+	.hero-area h1 {
 	font-size: 3em;
 	line-height: 1;
 	margin: 0;
@@ -669,7 +675,7 @@ input[type=button] {
     }
   
     footer .contact {
-      margin-bottom: 0;
+      margin: 0;
     }
 	
 	footer h5,
